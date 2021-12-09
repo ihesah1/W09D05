@@ -1,4 +1,4 @@
-# Social Media app using React Redux state management.  ⚡  
+# Social Media app using React Redux state management⚡  
 ## Visit the [Backend](https://github.com/ihesah1/W08D04) .👍
 
 ## User story 
