@@ -1,23 +1,24 @@
-import React from "react";
-import { Routes, Route} from "react-router-dom";
-import Post from "./components/Posts";
-import { useSelector } from "react-redux";
-import SignUp from "./components/SignUp";
-///import Login from "./components/Login";
-import Posts from "./reducer/post";
-
+import './App.css';
+import {Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
+import Login from './components/Login'
+import SignUp from './components/SignUp'
+import PasswordReset from './components/PasswordReset'
+import Posts from './components/Posts'
+import { useNavigate } from "react-router-dom";
 
 function App() {
-
+  const navigate = useNavigate();
   return (
-  <>
-    <Routes>
-        <Route exact path="/posts" element={<Posts />} />
-        <Route exact path="/SignUp" element={<SignUp />} />
-        <Route exact path="/login" element={<Login />} />
+    <div className="App">
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path='/login' element={<Login />}/>
+        <Route exact path='/signup' element={<SignUp />}/>
+       
+        <Route exact path="/posts" element={<Posts/>}/>
       </Routes>
-    </>
-   
+    </div>
   );
 }
 
