@@ -23,6 +23,8 @@
 
 <hr>
 
+![Untitled Workspace (9)](https://user-images.githubusercontent.com/92258765/145620987-70085bf3-2e28-4fc6-a697-7128dab7ad89.jpg)
+
 
 ## Basic Overview 
 ## ⭐ User story 
@@ -56,4 +58,24 @@
 * React-Redux for Redux's React bindings.
 * Mongoose framework
 * Nodemailer : Nodemailer allow us to send email.
+
+
+
+
+
+Routes
+---
+
+### `/users`
+
+- GET all users
+- POST a new user
+ ### `/posts`
+ 
+  ### `/like`
+ 
+  ### `/comment`
+ 
+  ### `/role`
+ 
 
