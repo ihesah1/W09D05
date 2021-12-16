@@ -69,8 +69,6 @@ Routes
 ---
 
 ### `/users`
-
-- GET all users
 - POST a new user
  ### `/posts`
  
@@ -80,4 +78,15 @@ Routes
  
   ### `/role`
  
-
+## Components
+* Card 
+* comment
+* Forget Password
+* PasswordReset
+* GoogleOr Facebook
+* Home
+* Posts
+* Navbar
+* Signup
+* ActivateAccount
+* 
